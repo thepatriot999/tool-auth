@@ -1,0 +1,19 @@
+{
+  "name": "bippy-api",
+  "version": "1.0.0",
+  "description": "HapiJs API with mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeshua Ensong <ensongjeshua@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^4.0.0",
+    "glue": "4.0.0",
+    "hapi": "14.2.0",
+    "hapi-auth-jwt2": "7.1.2",
+    "joi": "9.0.4",
+    "jsonwebtoken": "7.1.9"
+  }
+}
