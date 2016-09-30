@@ -1,7 +1,7 @@
 const manifest = {
 	connections : [
 		{
-			port   : 80,
+			port   : 8080,
 			labels : [ 'dev' ],
 			routes : {
 				cors : true
