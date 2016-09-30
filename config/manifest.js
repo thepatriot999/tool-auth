@@ -16,14 +16,6 @@ const manifest = {
 			plugin : './auth'
 		},
 		{
-			plugin : './api/crud-generator',
-			options : {
-				routes : {
-					prefix : '/api'
-				}
-			}
-		},
-		{
 			plugin  : './api',
 			options : {
 				routes : {

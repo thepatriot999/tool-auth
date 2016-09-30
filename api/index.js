@@ -1,4 +1,3 @@
-const Tennants = require( './handlers/tennants' );
 const Authentication = require( './handlers/auth' );
 
 exports.register = function ( plugin, option, next ) {
@@ -11,7 +10,11 @@ exports.register = function ( plugin, option, next ) {
 			'path'   : '/auth',
 			'config' : Authentication.authenticate
 		},
-		...Tennants
+		{
+			'method' : 'GET',
+			'path'   : '/test',
+			'config' : Authentication.validateAccess
+		}
 	] );
 
 	next();
